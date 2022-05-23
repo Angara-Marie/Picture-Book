@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PictureBook">
         <activity
+            android:name=".SecondPicActivity"
+            android:exported="false" />
+        <activity
             android:name=".FifthPicActivity"
             android:exported="false" />
         <activity
@@ -17,9 +20,6 @@
             android:exported="false" />
         <activity
             android:name=".ThirdPicActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SecondPicActivity"
             android:exported="false" />
         <activity
             android:name=".FirstPicActivity"
